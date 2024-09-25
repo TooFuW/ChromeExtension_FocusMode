@@ -1,6 +1,5 @@
 * {
-    max-height: 0 !important;
-    visibility: hidden !important;
+    display: none;
 }
 
 html,
@@ -8,13 +7,11 @@ body,
 *:has(article),
 article,
 article * {
-    max-height: none !important;
-    visibility: visible !important;
+    display: revert;
 }
 
 [role='navigation'] {
-    max-height: 0 !important;
-    visibility: hidden !important;
+    display: none;
 }
 
 article {
